@@ -40,3 +40,15 @@ Add this line (example):
 ```
 
 ✅ This proof must be visible in your browser screenshot submission.
+
+---
+
+## Dynamic Footer Deployment Date
+
+The portfolio footer displays the website version, deployment date, and author.
+
+The deployment date is generated automatically in `index.html` using JavaScript and `document.lastModified`. The date is formatted as `DD Mon YYYY`, so the footer reflects the date of the latest deployed version instead of requiring the date to be edited manually.
+
+Example:
+
+`Pravin Mishra Portfolio v1.0 — Deployed on 08 Aug 2026 — By Matthew Bardi`
